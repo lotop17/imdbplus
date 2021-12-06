@@ -22,4 +22,5 @@ const AgeRating = ({ data }) => {
   )
 }
 
+
 export default AgeRating
