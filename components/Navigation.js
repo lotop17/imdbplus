@@ -30,12 +30,12 @@ const Navigation = ({ locale, locales }) => {
 
         <div className={styles.navlogo}>
           <a href={homeurl}>
-            {/* <img
-              src="https://cdn.imgbin.com/16/5/8/stage-icon-music-festival-icon-tent-icon-F07LXdBc.jpg"
+            <img
+              src="https://a.storyblok.com/f/138109/490x324/695fd5fe50/logofestival.JPG"
               alt="Festival Logo"
               className=""
-            /> */}
-            <Image src="/logo-colored-full.png" alt="IMDBPlus Logo" width="128" height="25" />
+            /> 
+           
           </a>
         </div>
         <div className={styles.navlinkswrapper}>
