@@ -26,7 +26,6 @@ import Title from './Title'
 import TopMovies from './TopMovies'
 import AgeRating from './AgeRating'
 import Festival from './Festival'
-import FestivalList from './Festivallist'
 import Festivallist from './Festivallist'
 
 
