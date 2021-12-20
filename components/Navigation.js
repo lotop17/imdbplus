@@ -2,7 +2,7 @@ import styles from "../styles/Navigation.module.scss"
 import Image from "next/image"
 
 const Navigation = ({ locale, locales }) => {
-  const resolveFestivals = {
+  const resolvefestivals = {
     en: 'Festivals',
     nl: 'Festivals',
   }
@@ -41,7 +41,7 @@ const Navigation = ({ locale, locales }) => {
         <div className={styles.navlinkswrapper}>
           <div className={styles.navlinks}>
             <div className={styles.navlink}>
-              <a href={`${defaultLocale}pages/festivals`} className={styles.festival}>{resolveFestivals[locale]}</a>
+              <a href={`${defaultLocale}pages/festivals`} className={styles.festival}>{resolvefestivals[locale]}</a>
             </div>
             <div className={styles.navlink}>
               <a href={`${defaultLocale}pages/people`} className={styles.personality}>{resolvePeople[locale]}</a>
