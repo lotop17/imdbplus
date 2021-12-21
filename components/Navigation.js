@@ -6,9 +6,9 @@ const Navigation = ({ locale, locales }) => {
     en: 'Festivals',
     nl: 'Festivals',
   }
-  const resolvePeople = {
-    en: 'People',
-    nl: 'Mensen',
+  const resolveartists = {
+    en: 'Artists',
+    nl: 'Artiesten',
   }
   const resolveNews = {
     en: 'News',
@@ -44,7 +44,7 @@ const Navigation = ({ locale, locales }) => {
               <a href={`${defaultLocale}pages/festivals`} className={styles.festival}>{resolvefestivals[locale]}</a>
             </div>
             <div className={styles.navlink}>
-              <a href={`${defaultLocale}pages/people`} className={styles.personality}>{resolvePeople[locale]}</a>
+            <a href={`${defaultLocale}pages/artists`} className={styles.personality}>{resolveartists[locale]}</a>
             </div>
             <div className={styles.navlink}>
               <a href={`${defaultLocale}pages/news`} className={styles.newsitem}>{resolveNews[locale]}</a>

@@ -7,12 +7,12 @@ const Footer = () => {
 
         <div className="">
           <img
-            src="https://a.storyblok.com/f/133261/3039x582/a60d166ec2/logo-colored-full.png/m/200x0"
-            alt="IMDBPlus Logo"
+            src="https://a.storyblok.com/f/138109/490x324/695fd5fe50/logofestival.JPG"
+            alt="Festival Min Logo"
             className=""
           />
         </div>
-        <p>IMDB Plus is every bit as good as IMDB. Plus!</p>
+        <p>Website made by Emiel, Jun, Tony, Robbe, Jarne, Louis, Gilles and Rilke</p>
       </div>
     </footer>
 
