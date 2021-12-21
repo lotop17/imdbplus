@@ -3,13 +3,13 @@ import React, { useState } from "react"
 
 const NavigationMobile = ({ locale, locales }) => {
 
-  const resolveMovies = {
-    en: 'Movies',
-    nl: 'Films',
+  const resolvefestivals = {
+    en: 'Festivals',
+    nl: 'Festivals',
   }
   const resolvePeople = {
-    en: 'People',
-    nl: 'Mensen',
+    en: 'Artists',
+    nl: 'Artiesten',
   }
   const resolveNews = {
     en: 'News',
@@ -34,8 +34,8 @@ const NavigationMobile = ({ locale, locales }) => {
         <div className={styles.navlogo}>
           <a href="/">
             <img
-              src="https://a.storyblok.com/f/133261/3039x582/a60d166ec2/logo-colored-full.png/m/200x0"
-              alt="IMDBPlus Logo"
+              src="https://a.storyblok.com/f/138109/490x324/695fd5fe50/logofestival.JPG"
+              alt="Festival Logo"
               className=""
             />
           </a>
@@ -44,7 +44,7 @@ const NavigationMobile = ({ locale, locales }) => {
         {navstate&&<div className={styles.navlinkswrapper}>
           <div className={styles.navlinks}>
             <div className={styles.navlink}>
-              <a href={`${defaultLocale}pages/movies`} className={styles.movie}>{resolveMovies[locale]}</a>
+            <a href={`${defaultLocale}pages/festivals`} className={styles.festival}>{resolvefestivals[locale]}</a>
             </div>
             <div className={styles.navlink}>
               <a href={`${defaultLocale}pages/people`} className={styles.personality}>{resolvePeople[locale]}</a>

@@ -58,7 +58,7 @@ const Components = {
   'topmovies':TopMovies,
   'agerating':AgeRating,
   'festival':Festival,
-  'festivallist':festivallist,
+  'festivallist':festivallist
 }
 
 
