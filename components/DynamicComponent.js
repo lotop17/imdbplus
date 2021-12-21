@@ -26,7 +26,7 @@ import Title from './Title'
 import TopMovies from './TopMovies'
 import AgeRating from './AgeRating'
 import Festival from './Festival'
-import Festivallist from './festivallist'
+import festivallist from './festivallist'
 
 
 const Components = {
@@ -58,7 +58,7 @@ const Components = {
   'topmovies':TopMovies,
   'agerating':AgeRating,
   'festival':Festival,
-  'festivallist':Festivallist,
+  'festivallist':festivallist,
 }
 
 

@@ -5,7 +5,7 @@ import styles from "../styles/FestivalList.module.scss"
 import { getAllItems } from "../utils/storyblok"
 import SmallCardList from "./SmallCardList"
 
-const Festivallist = ({ data, level, locale }) => {
+const festivallist = ({ data, level, locale }) => {
   if (level === 'data') {
     var content = data.story.content;
   } else {
@@ -51,4 +51,4 @@ const Festivallist = ({ data, level, locale }) => {
   );
 };
 
-export default Festivallist;
+export default festivallist;
