@@ -7,7 +7,7 @@ import RelatedItemGallerySmall from "./RelatedItemGallerySmall"
 import RelatedItemGallery from "./RelatedItemGallery"
 import InPageSlideshow from "./InPageSlideshow"
 import SmallCardList from "./SmallCardList"
-import { FacebookShareButton, FacebookIcon } from "next-share"
+
 
 // const resolveDirectors = {
 //   en: 'Directors',
@@ -89,11 +89,7 @@ const Festival = ({ data, level }) => {
           <h1 className={styles.title}>
             {content.title}
           </h1>
-          <div className="sharebar">
-            <FacebookShareButton url={'https://imdbplus-teal.vercel.app/'}
-            quote={'Bring the festivals back to life/live'}
-            hastag={'#festivals'}><FacebookIcon size={32} round /></FacebookShareButton> 
-          </div>
+        
           {/* <div className={styles.genrelist}>
             {genres.map((item, index) => (
               <div className={styles.genre}>
