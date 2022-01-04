@@ -62,8 +62,8 @@ const Product = ({ data, level }) => {
             <div className={styles.content}> {render(content.description)}</div>
 
           </div>
-          {movies && movies.length > 0 && <SmallCardList items={movies} title="Related Movies" type="movie"></SmallCardList>}
-          {personalities && personalities.length > 0 && <SmallCardList items={personalities} title="Related Stars" type="personality"></SmallCardList>}
+          {movies && movies.length > 0 && <SmallCardList items={movies} title="Related Festivals" type="movie"></SmallCardList>}
+          {personalities && personalities.length > 0 && <SmallCardList items={personalities} title="Related Artists" type="personality"></SmallCardList>}
         </div>
       </main>
     </SbEditable>
