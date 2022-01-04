@@ -44,7 +44,7 @@ const Product = ({ data, level }) => {
             </div>
             <div className={styles.producthead_second}>
               <div className={styles.price}>
-                ${content.price}
+                €{content.price}
               </div>
               <div className={styles.short}>
                 {render(content.short)}
