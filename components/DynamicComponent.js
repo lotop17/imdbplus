@@ -29,6 +29,7 @@ import Festival from './Festival'
 import festivallist from './FestivalList'
 import Artist from './Artist'
 import Artistlist from './Artistlist'
+import TopFestivals from './TopFestivals'
 
 
 const Components = {
@@ -62,7 +63,8 @@ const Components = {
   'festival':Festival,
   'festivallist':festivallist,
   'artist':Artist,
-  'artistlist':Artistlist
+  'artistlist':Artistlist,
+  'topfestivals':TopFestivals
 }
 
 

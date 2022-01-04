@@ -5,18 +5,23 @@ const Navigation = ({ locale, locales }) => {
   const resolvefestivals = {
     en: 'Festivals',
     nl: 'Festivals',
+    de: 'Festivals',
   }
   const resolveartists = {
     en: 'Artists',
     nl: 'Artiesten',
+    de: 'Artisten',
+
   }
   const resolveNews = {
     en: 'News',
     nl: 'Nieuws',
+    de: 'Nachrichten',
   }
   const resolveMerchandise = {
     en: 'Shop',
     nl: 'Winkel',
+    de: 'Geschäft',
   }
   let homeurl = "/";
   if (locale != 'default') {
