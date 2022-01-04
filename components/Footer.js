@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerwrapper}>
       <div className="sharebar">
-           Share onze website op facebook ---> <FacebookShareButton url={'https://imdbplus-teal.vercel.app/'}
+           Share this website on facebook -> <FacebookShareButton url={'https://imdbplus-teal.vercel.app/'}
             quote={'Bring the festivals back to life/live'}
             hastag={'#festivals'}><FacebookIcon size={40} round /></FacebookShareButton>
           </div>
